@@ -7,11 +7,13 @@ import java.sql.ResultSet;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-
     String url="jdbc:mysql://localhost:3306/myeventdiego";
     String usr = "root";
     String pwd = "";
+//    String url="jdbc:mysql://134.109.228.235:/3306/myevent";
+//    String usr = "myevent_rw";
+//    String pwd = "uCo1koob";
+
 
     String firstQuery = "ripigliammo tutto chillo ch'era 'o nuostro mmiez 'a events";
 
